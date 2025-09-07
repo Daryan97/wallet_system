@@ -2,6 +2,27 @@
 
 A wallet management system backend written in Go, using Gin, Gorm, MySQL, Redis, JWT, bcrypt, and logrus.
 
+## Table of Contents
+
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+- [API Endpoints](#api-endpoints)
+- [API Input/Output Examples](#api-inputoutput-examples)
+  - [Register User](#register-user)
+  - [Login](#login)
+  - [Deposit Funds](#deposit-funds)
+  - [Transfer Funds](#transfer-funds)
+  - [Get Wallet Info](#get-wallet-info)
+  - [Get Transaction History](#get-transaction-history)
+  - [Admin: List Users](#admin-list-users)
+  - [Admin: List Transactions](#admin-list-transactions)
+- [Logging & Monitoring](#logging--monitoring)
+- [Caching](#caching)
+- [Development](#development)
+
 ## Features
 
 - User registration and login (JWT authentication)
